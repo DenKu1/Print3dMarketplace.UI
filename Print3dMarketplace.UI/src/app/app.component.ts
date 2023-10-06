@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Print3dMarketplace.UI';
+  title = "Print 3D Marketplace"
 }
