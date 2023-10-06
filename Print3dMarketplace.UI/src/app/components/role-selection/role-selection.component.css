@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle-container {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(165, 158, 140);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.round-button {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(215, 206, 178);
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out; /* Add smooth transition for scaling */
+}
+
+.round-button:hover {
+  transform: scale(1.2); /* Increase size on hover */
+}
+
+.button-separator {
+  width: 300px;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  margin: 10px 0;
+}
