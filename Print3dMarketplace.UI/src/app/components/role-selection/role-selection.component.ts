@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'role-selection',
@@ -6,4 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./role-selection.component.css']
 })
 export class RoleSelectionComponent {
+  faCircleArrowRight = faCircleArrowRight;
 }

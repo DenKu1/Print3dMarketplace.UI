@@ -1,42 +1,61 @@
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.circle-container {
-  width: 500px;
-  height: 500px;
-  background-color: rgb(165, 158, 140);
-  border-radius: 50%;
+.split-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
 }
 
-.round-button {
-  width: 300px;
-  height: 300px;
-  background-color: rgb(215, 206, 178);
-  color: rgb(0, 0, 0);
-  border-radius: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.split {
+  flex: 1;
+  padding: 20px;
   text-align: center;
-  cursor: pointer;
-  transition: transform 0.2s ease-in-out; /* Add smooth transition for scaling */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.round-button:hover {
-  transform: scale(1.2); /* Increase size on hover */
+.left {
+  background-color: var(--main-red);
 }
 
-.button-separator {
+.right {
+  background-color: var(--main-green);
+}
+
+.choose-card {
   width: 300px;
-  height: 2px;
-  background-color: rgb(0, 0, 0);
-  margin: 10px 0;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  color: var(--secondary);
 }
+
+.register-button {
+  width: 200px;
+  height: 50px;
+  background-color: var(--secondary);
+  border: none;
+  box-shadow: 0px 6px 0px 0px var(--shadow); /* Add shadow to the bottom */
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px; /* Vertically center the text */
+  cursor: pointer;
+  color: var(--main-green);
+}
+
+  .register-button.green {
+    color: var(--main-green);
+  }
+
+  .register-button.red {
+    color: var(--main-red);
+  }
+
+  .register-button:hover {
+    transform: translateX(4px); /* Add a slight lift on hover for interaction */
+    transition: transform 0.3s;
+  }

@@ -1,26 +1,18 @@
 <h1>Role selection</h1>
-<div class="container mt-5">
-  <!-- First Circle -->
-  <div class="circle-container">
-    <!-- Round clickable button with name and description -->
-    <div class="round-button" onclick="alert('Button 1 Clicked!')">
-      <div>
-        <span>I am Consumer</span>
-        <div class="button-separator"></div>
-        <span>I want my 3D ideas to be brought to life</span>
-      </div>
+
+<div class="split-container">
+  <div class="split left">
+    <div class="choose-card">
+      <h2>I am Customer</h2>
+      <p>I want my 3D ideas to be brought to life</p>
+      <button type="button" class="register-button green">Register <fa-icon [icon]="faCircleArrowRight"></fa-icon></button>
     </div>
   </div>
-
-  <!-- Second Circle -->
-  <div class="circle-container">
-    <!-- Round clickable button with name and description -->
-    <div class="round-button" onclick="alert('Button 2 Clicked!')">
-      <div>
-        <span>I am Creator</span>
-        <div class="button-separator"></div>
-        <span>I want to bring other people's ideas to life</span>
-      </div>
+  <div class="split right">
+    <div class="choose-card">
+      <h2>I am Creator</h2>
+      <p>I want to bring other people's ideas to life</p>
+      <button type="button" class="register-button red">Register <fa-icon [icon]="faCircleArrowRight"></fa-icon></button>
     </div>
   </div>
 </div>
