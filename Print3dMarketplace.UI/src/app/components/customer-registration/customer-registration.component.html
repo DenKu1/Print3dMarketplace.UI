@@ -1,1 +1,34 @@
-<h1>Customer registration</h1>
+<div class="split-container register-form mt-3 mb-3">
+  <div class="split left">
+    <div class="col-md-6 d-none d-md-block">
+      <h1 class="text-center pt-3">Create Account<br> Now</h1>
+    </div>
+  </div>
+  <div class="split right">
+    <div class="col-md-6">
+      <form action="#" class="p-4 text-white">
+        <div class="mb-3">
+          <label for="name" class="form-label"><fa-icon [icon]="faUser"></fa-icon> Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label"><fa-icon [icon]="faEnvelope"></fa-icon> Email</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label"><fa-icon [icon]="faLock"></fa-icon> Password</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="mb-3">
+          <label for="confirm-pwd" class="form-label"><fa-icon [icon]="faLock"></fa-icon> Confirm Password</label>
+          <input type="password" class="form-control" id="confirm-pwd">
+        </div>
+        <div class="mb-3 form-check">
+          <input class="form-check-input" type="checkbox" id="remember-me">
+          <label class="form-check-label" for="remember-me">Remember me</label>
+        </div>
+        <button type="submit" class="register-button mb-3 mt-3 float-end">Register <fa-icon [icon]="faCircleArrowRight"></fa-icon></button>
+      </form>
+    </div>
+  </div>
+</div>
