@@ -1,18 +1,16 @@
-<h1>Role selection</h1>
-
 <div class="split-container">
   <div class="split left">
     <div class="choose-card">
-      <h2>I am Customer</h2>
-      <p>I want my 3D ideas to be brought to life</p>
-      <button type="button" class="register-button green">Register <fa-icon [icon]="faCircleArrowRight"></fa-icon></button>
+      <h2 class="header">I am Customer</h2>
+      <p class="description">I want my 3D ideas to be brought to life</p>
+      <button type="button" class="register-button green" [routerLink]="['/customer-registration']">Register <fa-icon [icon]="faCircleArrowRight"></fa-icon></button>
     </div>
   </div>
   <div class="split right">
     <div class="choose-card">
-      <h2>I am Creator</h2>
-      <p>I want to bring other people's ideas to life</p>
-      <button type="button" class="register-button red">Register <fa-icon [icon]="faCircleArrowRight"></fa-icon></button>
+      <h2 class="header">I am Creator</h2>
+      <p class="description">I want to bring other people's ideas to life</p>
+      <button type="button" class="register-button red" [routerLink]="['/creator-registration']">Register <fa-icon [icon]="faCircleArrowRight"></fa-icon></button>
     </div>
   </div>
 </div>

@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .split-container {
   display: flex;
   height: 100vh;
@@ -33,6 +28,14 @@
   margin: auto;
   color: var(--secondary);
 }
+
+  .choose-card .header {
+    font-family: 'Roboto-Bold';
+  }
+
+  .choose-card .description {
+    font-family: 'Roboto-Italic';
+  }
 
 .register-button {
   width: 200px;
