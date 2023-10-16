@@ -8,6 +8,7 @@ import { CustomerRegistrationComponent } from './components/customer-registratio
 import { CreatorRegistrationComponent } from './components/creator-registration/creator-registration.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
+import { CustomerProfileComponent } from './components/customer-profile/customer-profile.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
     RoleSelectionComponent,
     CustomerRegistrationComponent,
     CreatorRegistrationComponent,
-    NavMenuComponent
+    NavMenuComponent,
+    CustomerProfileComponent
   ],
   imports: [
     BrowserModule,
