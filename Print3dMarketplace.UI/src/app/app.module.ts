@@ -9,6 +9,7 @@ import { CreatorRegistrationComponent } from './components/creator-registration/
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
 import { CreatorProfileComponent } from './components/creator-profile/creator-profile.component';
+import { PrintRequestCreationComponent } from './components/print-request-creation/print-request-creation.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CreatorProfileComponent } from './components/creator-profile/creator-pr
     CustomerRegistrationComponent,
     CreatorRegistrationComponent,
     NavMenuComponent,
-    CreatorProfileComponent
+    CreatorProfileComponent,
+    PrintRequestCreationComponent
   ],
   imports: [
     BrowserModule,

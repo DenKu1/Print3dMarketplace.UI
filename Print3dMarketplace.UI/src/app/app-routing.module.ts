@@ -4,12 +4,14 @@ import { RoleSelectionComponent } from './components/role-selection/role-selecti
 import { CustomerRegistrationComponent } from './components/customer-registration/customer-registration.component';
 import { CreatorRegistrationComponent } from './components/creator-registration/creator-registration.component';
 import { CreatorProfileComponent } from './components/creator-profile/creator-profile.component';
+import { PrintRequestCreationComponent } from './components/print-request-creation/print-request-creation.component';
 
 const routes: Routes = [
   { path: 'role-selection', component: RoleSelectionComponent },
   { path: 'customer-registration', component: CustomerRegistrationComponent },
   { path: 'creator-registration', component: CreatorRegistrationComponent },
-  { path: 'creator-profile', component: CreatorProfileComponent }
+  { path: 'creator-profile', component: CreatorProfileComponent },
+  { path: 'request-creation', component: PrintRequestCreationComponent }
 ];
 
 @NgModule({
