@@ -1,33 +1,5 @@
-:root {
-  --main-red: #ef7f69;
-  --main-green: #78c1ca;
-  --secondary: #f9f9f8;
-  --alt-red: #ef846d;
-  --alt-green: #5b9297;
-  --light-red: #f3a799;
-  --light-green: #b8cacc;
-}
-
-@font-face {
-  font-family: 'Roboto-Regular';
-  src: url('assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Roboto-Italic';
-  src: url('assets/fonts/Roboto/Roboto-Italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Roboto-Bold';
-  src: url('assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Roboto-BoldItalic';
-  src: url('assets/fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
-}
-
-* {
-  font-family: 'Roboto-Regular';
-}
+@import './common-styles/colors.css';
+@import './common-styles/common-elements.css';
+@import './common-styles/global.css';
+@import './common-styles/variables.css';
+@import './common-styles/fonts.css';
