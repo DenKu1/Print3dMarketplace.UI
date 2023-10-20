@@ -5,13 +5,15 @@ import { CustomerRegistrationComponent } from './components/customer-registratio
 import { CreatorRegistrationComponent } from './components/creator-registration/creator-registration.component';
 import { CreatorProfileComponent } from './components/creator-profile/creator-profile.component';
 import { PrintRequestCreationComponent } from './components/print-request-creation/print-request-creation.component';
+import { CustomerPrintRequestsComponent } from './components/customer-print-requests/customer-print-requests.component';
 
 const routes: Routes = [
   { path: 'role-selection', component: RoleSelectionComponent },
   { path: 'customer-registration', component: CustomerRegistrationComponent },
   { path: 'creator-registration', component: CreatorRegistrationComponent },
   { path: 'creator-profile', component: CreatorProfileComponent },
-  { path: 'request-creation', component: PrintRequestCreationComponent }
+  { path: 'request-creation', component: PrintRequestCreationComponent },
+  { path: 'customer-requests', component: CustomerPrintRequestsComponent }
 ];
 
 @NgModule({
